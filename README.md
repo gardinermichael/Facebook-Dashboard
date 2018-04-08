@@ -13,8 +13,10 @@ Dashboard that comparatively monitored trending posts on multiple Facebook pages
   
 <h3>Features</h3>
 
+* facebookGenerator
 * redditGenerator
-* 
+* newsTop
+* Independent-100
 
 <h3>Libraries:</h3>
 
