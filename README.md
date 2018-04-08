@@ -12,7 +12,7 @@ Dashboard that uses Facebook API to comparatively monitor trending posts on mult
   * Facebook allows users to make API calls through their web-based Graph API Explorer. Access tokens obtained this way are only valid for two hours unless [converted](https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension) by making a server-side API call, but can be used elsewhere until then.
 
 <h3>Libraries:</h3>
-* [Import JSON](https://github.com/bradjasper/ImportJSON)
+[Import JSON](https://github.com/bradjasper/ImportJSON)
 
   * Adds an =ImportJSON() function to the spreadsheet (Facebook Graph API outputs data as a JSON). Installed by manually adding ImportJSON.gs through the spreedsheet's Script Editor.
 
