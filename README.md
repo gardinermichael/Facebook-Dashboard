@@ -18,9 +18,11 @@ Dashboard that comparatively monitored trending posts on multiple Facebook pages
 <h3>Features</h3>
 
 * facebookGenerator
-  * 
+  * Publication	F/A Ratio	Total Shares	Message	Link	FB Link	Date	Type	Headline	Shares	Reactions	Comments	Time	H	M	TS	TR	TC	EST Timezone	Audience	WS	WR	WC	Fans	WS	WR	WC 
 * redditGenerator
+  * Subreddit	Score	Subreddit	 Pub	Subreddit ID	Perma	URL	Headline	Time Unadjusted	Comments	Public/Private	Time	EST Timezone	Permalink
 * newsTop
+  * Pub	Headlines	Description	URL	Image URLs	Uncoverted Time	Date in Zulu	Time w/ Zulu	Time w/o Z	Time EST	EST	Converted time doesn't work
 * Independent-100
 
 <h3>Libraries:</h3>
