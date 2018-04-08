@@ -2,7 +2,7 @@
 
 <h3>Project:</h3>
 
-Dashboard that comparatively monitored trending posts on multiple Facebook pages simultaneously, as well as news stories around the web. Created for a Facebook-focused publication repackaging stories from other outlets and publishing on their own genre-branded Facebook pages.
+Dashboard that comparatively monitored trending posts on multiple Facebook pages simultaneously, as well as news stories around the web. Created for a Facebook-focused publication repackaging stories from other outlets to publish on their own genre-branded Facebook pages.
 
 <h3>Applications:</h3>
 
