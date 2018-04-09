@@ -1,4 +1,4 @@
-# Facebook-Dashboard
+# Facebook (& More) Dashboard
 
 <h3>Project:</h3>
 
