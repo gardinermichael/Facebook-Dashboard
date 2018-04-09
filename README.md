@@ -13,8 +13,8 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
 * [Reddit API](https://www.reddit.com/dev/api/)
   * For the purposes of this dashboard, is mainly used to retrieve a subreddit's top posts within a certain time range. Does allow a generous amount of information to be retrieved from Reddit.
 * [News API](https://newsapi.org/)
-  * Service handles scraping and outputting data about news stories from [thousands of publications](https://newsapi.org/sources). Paid API service for any commercial entity, but free for developmental and non-commercial use.
-  
+  * Service handles scraping and outputting data about news stories from [dozens of publications](https://newsapi.org/sources). Paid API service for any commercial entity, but free for developmental and non-commercial use. Recent capabilities added in API Version 2 greatly expanded the service's value, including finding the top stories for certain categories (i.e. business) or topic (i.e. Apple). 
+ 
 <h3>Features</h3>
 
 * facebookGenerator
@@ -41,6 +41,13 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
    * Adds an =ImportJSON() function to the Google spreadsheet. Facebook Graph API outputs data as a JSON, as does almost every API. Installed by manually adding ImportJSON.gs through the spreedsheet's Script Editor.
 
 <h3>Workflow:</h3>
+
+* Facebook 
+* Reddit
+
+* News Stories
+  * Support sheet labeled: newsSources
+    * Cell A1 generates a list of the sources in News API. *=importJSON("https://newsapi.org/v1/sources?language=en","/sources/id,/sources/name,/sources/country,/sources/category","noInherit,noTruncate,noHeaders")*
 
 
 
