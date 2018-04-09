@@ -1,5 +1,3 @@
-ImportJSON only saved to this repo for posterity. Please reference the repo linked below.
+ImportJSON only saved for posterity. Please reference the repo linked below.
 
-<h3>test</h3>
-
-[https://github.com/bradjasper/ImportJSON](ImportJSON Repo)
+[Import JSON](https://github.com/bradjasper/ImportJSON) 
