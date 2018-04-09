@@ -58,6 +58,8 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
       * Column D and E finds the Fan and Audience counts.
         * `"/likes,/talking_about_count"`
         * Example: *`=importjson("https://graph.facebook.com/PUBLICATION-NAME/?access_token=***************)", "/likes,/talking_about_count","noInherit,noTruncate,noHeaders")`*
+      * Parameter requirements for generating data about recent posts are included in Column F and so on.
+        * `/data/message,/data/link,/data/permalink_url,/data/created_time,/data/type,/data/name,/data/shares/count	/data/reactions/summary/total_count,/data/comments/summary/total_count`
 * Reddit
   * No support sheet.
   * Generator page invokes the API call with these parameters:
