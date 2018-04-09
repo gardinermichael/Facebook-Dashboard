@@ -50,9 +50,9 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
 * Reddit
   * No support sheet.
   * Generator page invokes the API call with these parameters:
-    * `"/data/children/data/domain,/data/children/data/subreddit,/data/children/data/score,/data/children/data/permalink,/data/children/data/url,/data/children/data/title,/data/children/data/created_utc,/data/children/data/num_comments`
+    * `"/data/children/data/domain,/data/children/data/subreddit,/data/children/data/score,/data/children/data/permalink,/data/children/data/url,/data/children/data/title,/data/children/data/created_utc,/data/children/data/num_comments"`
   * Example:
-    * `*=importJSON("https://www.reddit.com/r/news/top/.json?count=20&t=day", "/data/children/data/domain,/data/children/data/subreddit,/data/children/data/score,/data/children/data/permalink,/data/children/data/url,/data/children/data/title,/data/children/data/created_utc,/data/children/data/num_comments", "noInherit,noTruncate,noHeaders")*`
+    * *`=importJSON("https://www.reddit.com/r/news/top/.json?count=20&t=day", "/data/children/data/domain,/data/children/data/subreddit,/data/children/data/score,/data/children/data/permalink,/data/children/data/url,/data/children/data/title,/data/children/data/created_utc,/data/children/data/num_comments", "noInherit,noTruncate,noHeaders")`*
 
 * News Stories
   * Support sheet labeled: newsSources
@@ -61,7 +61,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * Generator page invokes the assembled API calls from newsSources!E* and outputs the results in the organized categories.
     * Parameters include: `"/articles/title,/articles/description,/articles/url,/articles/publishedAt"`
   * Example:
-    * `*=importJSON(https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=**************************,"/articles/title,/articles/description,/articles/url,/articles/publishedAt","noInherit,noTruncate,noHeaders")*`
+    * *`=importJSON(https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=**************************,"/articles/title,/articles/description,/articles/url,/articles/publishedAt","noInherit,noTruncate,noHeaders")`*
 
 
 
