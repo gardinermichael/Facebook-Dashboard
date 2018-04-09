@@ -68,7 +68,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
     * Weighted Categories are found by dividing that number (Shares/Reactions/Comments) by either Time, Fan, or Audience count. The outputted numbers are arbitary, but the results stratified to compare and contrast between publications. 
 * Reddit
   * No support sheet.
-  * Generator page invokes the API call with these parameters:
+  * Generator page invokes the API call for these parameters:
     * `"/data/children/data/domain,/data/children/data/subreddit,/data/children/data/score,/data/children/data/permalink,/data/children/data/url,/data/children/data/title,/data/children/data/created_utc,/data/children/data/num_comments"`
   * Example:
     * *`=importJSON("https://www.reddit.com/r/news/top/.json?count=20&t=day", "/data/children/data/domain,/data/children/data/subreddit,/data/children/data/score,/data/children/data/permalink,/data/children/data/url,/data/children/data/title,/data/children/data/created_utc,/data/children/data/num_comments", "noInherit,noTruncate,noHeaders")`*
