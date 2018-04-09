@@ -29,7 +29,6 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * Subreddit	Score	Subreddit	 Pub	Subreddit ID	Perma	URL	Headline	Time Unadjusted	Comments	Public/Private	Time	EST Timezone	Permalink
 * newsTop
   * Pub	Headlines	Description	URL	Image URLs	Uncoverted Time	Date in Zulu	Time w/ Zulu	Time w/o Z	Time EST	EST	Converted time doesn't work
-* Independent-100
 
 <h3>Libraries:</h3>
 
