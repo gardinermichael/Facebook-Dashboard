@@ -2,7 +2,7 @@
 
 <h3>Project:</h3>
 
-Dashboard that comparatively monitored trending posts on multiple Facebook pages simultaneously, as well as news stories around the web. Created for a Facebook-focused publication repackaging stories from other outlets to publish on their own genre-branded Facebook pages.
+Dashboard that comparatively monitors trending posts on multiple Facebook pages simultaneously, as well as news stories around the web. Created for a Facebook-focused publication repackaging stories from other outlets to publish on genre-branded Facebook pages.
 
 <h3>Applications:</h3>
 
@@ -18,6 +18,11 @@ Dashboard that comparatively monitored trending posts on multiple Facebook pages
 <h3>Features</h3>
 
 * facebookGenerator
+  * Imports the engagement and metadata for a Facebook Page's last 30 published stories.
+  * Metrics to compare stories (in order of importance): **Shares**, **Reactions** and **Comments**.
+  * Metrics to compare stories across pages: **Time** since posting, a page's **Audience** count (users who recently engaged with the page) and a page's **Fan** count (users who have *Liked* or *Followed* a page).
+  * Story stats are compared across different pages by dividing the share, reaction and comment counts by the time, audience and fan counts. 
+  * While the numbers themselves are meaningless for the most part, the results are stratified into three categories: **Green** for well-performing stories, **Yellow** for an average performance and **Red** for poor performance. 
   * Publication	F/A Ratio	Total Shares	Message	Link	FB Link	Date	Type	Headline	Shares	Reactions	Comments	Time	H	M	TS	TR	TC	EST Timezone	Audience	WS	WR	WC	Fans	WS	WR	WC 
 * redditGenerator
   * Subreddit	Score	Subreddit	 Pub	Subreddit ID	Perma	URL	Headline	Time Unadjusted	Comments	Public/Private	Time	EST Timezone	Permalink
