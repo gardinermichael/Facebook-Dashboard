@@ -58,8 +58,14 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
       * Column D and E finds the Fan and Audience counts.
         * `"/likes,/talking_about_count"`
         * Example: *`=importjson("https://graph.facebook.com/PUBLICATION-NAME/?access_token=***************)", "/likes,/talking_about_count","noInherit,noTruncate,noHeaders")`*
-      * Parameter requirements for generating data about recent posts are included in Column F and so on.
-        * `/data/message,/data/link,/data/permalink_url,/data/created_time,/data/type,/data/name,/data/shares/count	/data/reactions/summary/total_count,/data/comments/summary/total_count`
+    * Parameter requirements for generating data about recent posts are included in Column F and so on.
+      * `/data/message,/data/link,/data/permalink_url,/data/created_time,/data/type,/data/name,/data/shares/count	/data/reactions/summary/total_count,/data/comments/summary/total_count`
+  * Generator page depends on the API token in codeLab.
+    * An API call per publication is called. Example:
+      * *`=ImportJSON("https://graph.facebook.com/v2.8/",C3,"/posts/?fields=message,link,permalink_url,created_time,type,name,id,comments.limit(0).summary(true),shares,likes.limit(0).summary(true),reactions.limit(0).summary(true)&limit=30&date_format=U&access_token=************************", "data/message,/data/link,/data/permalink_url,/data/created_time,/data/type,/data/name,/data/shares/count	/data/reactions/summary/total_count,/data/comments/summary/total_count", "noInherit,noTruncate,noHeaders")`*
+    * Seperate API call for finding a story's total shares. Example:
+      * *`=importJSON("https://graph.facebook.com/v2.8/POST?access_token=**************", "/share/share_count", "noInherit,noTruncate,noHeaders")`*
+    * Weighted Categories are found by dividing that number (Shares/Reactions/Comments) by either Time, Fan, or Audience count. The outputted numbers are arbitary, but the results stratified to compare and contrast between publications. 
 * Reddit
   * No support sheet.
   * Generator page invokes the API call with these parameters:
