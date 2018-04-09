@@ -56,7 +56,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
         * `"/id"`
         * Example: *`=importjson("https://graph.facebook.com/PUBLICATION-NAME/?access_token=***************)", "/id","noInherit,noTruncate,noHeaders")`*
       * Column D and E finds the Fan and Audience counts.
-        * "/likes,/talking_about_count"
+        * `"/likes,/talking_about_count"`
         * Example: *`=importjson("https://graph.facebook.com/PUBLICATION-NAME/?access_token=***************)", "/likes,/talking_about_count","noInherit,noTruncate,noHeaders")`*
 * Reddit
   * No support sheet.
