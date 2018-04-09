@@ -22,8 +22,9 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * Metrics to compare stories (in order of importance): **Shares**, **Reactions** and **Comments**.
   * Metrics to compare stories across pages: **Time** since posting, a page's **Audience** count (users who recently engaged with the page) and a page's **Fan** count (users who have *Liked* or *Followed* a page).
   * Story stats are compared across different pages by dividing the share, reaction and comment counts by the time, audience and fan counts. 
-  * While the numbers themselves are meaningless for the most part, the results are stratified into three categories: **Green** for well-performing stories, **Yellow** for an average performance and **Red** for poor performance. 
-  * Publication	F/A Ratio	Total Shares	Message	Link	FB Link	Date	Type	Headline	Shares	Reactions	Comments	Time	H	M	TS	TR	TC	EST Timezone	Audience	WS	WR	WC	Fans	WS	WR	WC 
+  * While the numbers themselves are meaningless for the most part, the results are stratified into three categories: **Green** for well-performing stories, **Yellow** for an average performance and **Red** for poor performance.
+  * Due to the nature of Facebook, a certain story may perform well in one category, but dismally in another, and still be a worthwhile lead. All the information the dashboard outputs needs to contextualized and weighted by the user.
+  * Columns: *Publication*,	*Fan/Audience Ratio*,	*Total Shares* (A story's total shares on Facebook --	meaning not just the instance it was posted on the page), *Message* (The short blurb accompanying every Facebook post -- not the description a post imports from the website), *Link* (to the story),	*FB Link* (Link to the story's Facebook), *Date* (in UTC), *Type* (i.e. post, image, video),	*Headline*, *Shares* (for that post),	*Reactions*,	*Comments*, *Time*	(date and time posted), *H* (hours since story was posted) *M* (minutes since story was posted),	*TS* (shares weighted by time), *TR* (reactions weighted by time),	*TC* (comments weighted by time), *EST Timezone* (timezone of user), *Audience*,	*WS*	*WR*	*WC*	*Fans*	*WS*	*WR*	*WC*. 
 * redditGenerator
   * Subreddit	Score	Subreddit	 Pub	Subreddit ID	Perma	URL	Headline	Time Unadjusted	Comments	Public/Private	Time	EST Timezone	Permalink
 * newsTop
