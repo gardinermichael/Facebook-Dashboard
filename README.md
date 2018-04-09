@@ -31,7 +31,9 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * While no different than going to a subreddit page and sorting by top posts for the past day, it cannot be understated how much time is saved by having top posts from all the subreddits you're interested in presented at the same time.
   * Columns: **Subreddit**, **Pub**: *Website domain*, **Score**,	**URL**: *What the post is linking to*,	**Headline**, **Time**, **Comments** and **Permalink**: *to the Reddit post*.
 * newsTop
-  * Pub	Headlines	Description	URL	Image URLs	Uncoverted Time	Date in Zulu	Time w/ Zulu	Time w/o Z	Time EST	EST	Converted time doesn't work
+  * Imports top 8 stories from a variety of publications, organized by category (i.e. Science Magazines: National Geographic | New Scientist)
+  * No ranking or comparisons, but again, having stories presented simultaneously immensely speeds up daily news digest. 
+  * Columns: **Publications**, **Headlines**,	**Description**, **URL**, **Image URLs** and **Time**.
 
 <h3>Libraries:</h3>
 
