@@ -61,7 +61,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * Generator page invokes the assembled API calls from newsSources!E* and outputs the results in the organized categories.
     * Parameters include: `"/articles/title,/articles/description,/articles/url,/articles/publishedAt"`
   * Example:
-    * *`=importJSON(https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=**************************,"/articles/title,/articles/description,/articles/url,/articles/publishedAt","noInherit,noTruncate,noHeaders")`*
+    * *`=importJSON("https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=**************************","/articles/title,/articles/description,/articles/url,/articles/publishedAt","noInherit,noTruncate,noHeaders")`*
 
 
 
