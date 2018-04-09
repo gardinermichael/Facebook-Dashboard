@@ -11,9 +11,9 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
 * [Facebook Graph API](https://developers.facebook.com/tools/explorer/)
   * Facebook allows users to make API calls through their web-based Graph API Explorer. Access tokens obtained this way are only valid for two hours unless [converted](https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension) by making a server-side API call, but can be used elsewhere until then.
 * [Reddit API](https://www.reddit.com/dev/api/)
-  * Allows a generous amount of information to be retrieved from Reddit, but for the purposes of this dashboard is mainly used for retrieving a subreddit's top posts for within a certain time range.
+  * For the purposes of this dashboard is mainly used for retrieving a subreddit's top posts for within a certain time range, but allows a generous amount of information to be retrieved from Reddit.
 * [News API](https://newsapi.org/)
-  * Paid API service for any commercial entity, but free for developmental and non-commercial use. Service handles scraping and outputting data about news stories from [thousands of publications](https://newsapi.org/sources).
+  * Service handles scraping and outputting data about news stories from [thousands of publications](https://newsapi.org/sources). Paid API service for any commercial entity, but free for developmental and non-commercial use.
   
 <h3>Features</h3>
 
