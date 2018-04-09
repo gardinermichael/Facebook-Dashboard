@@ -26,7 +26,10 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * Due to the nature of Facebook, a certain story may perform well in one category, but dismally in another, and still be a worthwhile lead. All the information the dashboard outputs needs to contextualized and weighted by the user.
   * Columns: **Publication**,	**Fan/Audience Ratio**,	**Total Shares**: *Story's total shares on Facebook --	meaning not just the instance on the Page*, **Message**: *Short blurb accompanying every Facebook post -- not the description a post imports from the website*, **Link**: *to the story*,	**FB Link**: *Link to the story's Facebook post*, **Date**: *in UTC*, **Type**: *i.e. post, image, video*,	**Headline**, **Shares**: *for that post*,	**Reactions**,	**Comments**, **Time**: *Date and time posted*, **H**: *Hours since story was posted*, **M**: *Minutes since story was posted*,	**TS**: *Shares weighted by time*, **TR**: *Reactions weighted by time*,	**TC**: *Comments weighted by time*, **EST Timezone**: *Timezone of user*, **Audience**: *of Facebook Page*,	**WS**: *Shares weighted by Audience*,	**WR**: *Reactions weighted by Audience*,	**WC**: *Comments weighted by Audience*, **Fans**: *of Facebook page*,	**WS**: *Shares weighted by Fans*,	**WR**: *Reactions weighted by Fans* and	**WC**: *Comments weighted by Fans*. 
 * redditGenerator
-  * Subreddit	Score	Subreddit	 Pub	Subreddit ID	Perma	URL	Headline	Time Unadjusted	Comments	Public/Private	Time	EST Timezone	Permalink
+  * Imports top 20 posts from a variety of subreddits, organized by category (i.e. Hard News: /r/News | /r/WorldNews | /r/Politics).
+  * Metrics: **Reddit Score** and **Comment Count**.
+  * While not different than going to a subreddit page and sorting by the top posts of the past day, having the top posts from all the subreddits you're interested in presented at the same time is a major time saver.
+  * Columns: **Subreddit**, **Pub**: *Website domain*, **Score**,	**URL**: *What the post is linking to*,	**Headline**, **Time**, **Comments** and **Permalink**: *to the Reddit post*.
 * newsTop
   * Pub	Headlines	Description	URL	Image URLs	Uncoverted Time	Date in Zulu	Time w/ Zulu	Time w/o Z	Time EST	EST	Converted time doesn't work
 
