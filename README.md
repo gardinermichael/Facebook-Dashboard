@@ -28,7 +28,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
 * redditGenerator
   * Imports top 20 posts from a variety of subreddits, organized by category (i.e. Hard News: /r/News | /r/WorldNews | /r/Politics).
   * Metrics: **Reddit Score** and **Comment Count**.
-  * While not different than going to a subreddit page and sorting by the top posts of the past day, having the top posts from all the subreddits you're interested in presented at the same time is a major time saver.
+  * While no different than going to a subreddit page and sorting by top posts for the past day, it cannot be understated how much time is saved by having top posts from all the subreddits you're interested in presented at the same time.
   * Columns: **Subreddit**, **Pub**: *Website domain*, **Score**,	**URL**: *What the post is linking to*,	**Headline**, **Time**, **Comments** and **Permalink**: *to the Reddit post*.
 * newsTop
   * Pub	Headlines	Description	URL	Image URLs	Uncoverted Time	Date in Zulu	Time w/ Zulu	Time w/o Z	Time EST	EST	Converted time doesn't work
