@@ -37,7 +37,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
 
 <h3>Libraries:</h3>
 
-*  [Import JSON](https://github.com/bradjasper/ImportJSON)
+*  [Import JSON](https://github.com/bradjasper/ImportJSON) 
   * Adds an =ImportJSON() function to the Google spreadsheet (Facebook Graph API outputs data as a JSON). Installed by manually adding ImportJSON.gs through the spreedsheet's Script Editor.
 
 <h3>Workflow:</h3>
