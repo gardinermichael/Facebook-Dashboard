@@ -32,7 +32,7 @@ Dashboard that comparatively monitors trending posts on multiple Facebook pages 
   * Columns: **Subreddit**, **Pub**: *Website domain*, **Score**,	**URL**: *What the post is linking to*,	**Headline**, **Time**, **Comments** and **Permalink**: *to the Reddit post*.
 * newsTop
   * Imports top 8 stories from a variety of publications, organized by category (i.e. Science Magazines: National Geographic | New Scientist)
-  * No ranking or comparisons, but again, having stories presented simultaneously immensely speeds up daily news digest. 
+  * No ranking or comparisons other than being the top 8, but again, having stories presented simultaneously immensely speeds up daily news digest. 
   * Columns: **Publications**, **Headlines**,	**Description**, **URL**, **Image URLs** and **Time**.
 
 <h3>Libraries:</h3>
